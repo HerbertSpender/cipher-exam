@@ -1,0 +1,68 @@
+# Sensitive information
+*.env
+*.env.local
+*.env.*.local
+.envrc
+secrets/
+.secrets
+
+# Cursor rules
+.cursor/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.vercel/
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+coverage.json
+fhevmTemp/
+deployments/
+types/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# Package manager locks (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
+
+# Testing
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+
