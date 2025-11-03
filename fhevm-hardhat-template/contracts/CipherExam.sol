@@ -31,6 +31,7 @@ contract CipherExam is ZamaEthereumConfig {
     
     // ============ State Variables ============
     
+    /// @notice Counter for exam IDs, auto-increments on creation
     uint256 public nextExamId;
     mapping(uint256 => Exam) public exams;
     mapping(uint256 => mapping(address => StudentSubmission)) public submissions;
