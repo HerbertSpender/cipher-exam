@@ -13,6 +13,7 @@ import "./tasks/accounts";
 import "./tasks/FHECounter";
 
 // Run 'npx hardhat vars setup' to see the list of variables that need to be set
+// Default mnemonic is for local development only
 
 const MNEMONIC: string = vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
