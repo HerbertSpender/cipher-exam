@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "CipherExam - Privacy-First Exam System",
-  description: "Decentralized exam system powered by FHEVM",
+  description: "Decentralized exam system powered by FHEVM with end-to-end encryption",
 };
 
 export default function RootLayout({
