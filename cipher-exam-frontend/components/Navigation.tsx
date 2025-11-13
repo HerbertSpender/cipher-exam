@@ -10,6 +10,7 @@ export function Navigation() {
     ? `${accounts[0].slice(0, 6)}...${accounts[0].slice(-4)}`
     : "";
 
+  // Map chain IDs to display names
   const chainName = chainId === 31337 ? "Hardhat" : chainId === 11155111 ? "Sepolia" : "Unknown";
 
   return (

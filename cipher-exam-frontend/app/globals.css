@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Design tokens for light and dark themes */
 @layer base {
   :root {
     --background: 249 250 251;
