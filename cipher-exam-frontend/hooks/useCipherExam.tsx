@@ -25,6 +25,7 @@ export function useCipherExam() {
     initialMockChains: { 31337: "http://localhost:8545" },
   });
 
+  // Contract instance state
   const [contract, setContract] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<Error | null>(null);
