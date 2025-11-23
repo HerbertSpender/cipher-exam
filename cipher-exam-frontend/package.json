@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@fhevm/mock-utils": "0.3.0-1",
+    "@fhevm/mock-utils": "0.3.0-2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
